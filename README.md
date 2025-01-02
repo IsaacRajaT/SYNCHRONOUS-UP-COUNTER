@@ -28,7 +28,19 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+Open Quartus Prime software.
+
+Create a new project and include a Verilog file for the counters.
+
+Write the Verilog code for both counters.
+
+Compile the project to check for errors.
+
+Simulate the design to observe the waveform outputs.
+
+Compare the outputs against the truth table to verify functionality.
+
+Generate the RTL schematics and timing diagrams.
 
 **PROGRAM**
 
@@ -58,5 +70,4 @@ RegisterNumber:24900178
 
 
 **RESULTS**
-
-Thus, implemented 4 bit synchronous up counter and validated functionality.
+Both the 4-bit ripple counter and the 4-bit synchronous up counter were successfully implemented in Verilog, and their functionality was validated using simulation results
